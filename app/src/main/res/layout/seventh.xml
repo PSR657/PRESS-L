@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gframe"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/butterfly"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button1"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="160dp"
+            android:text="Smile"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view1"
+            android:layout_marginLeft="40dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/butterfly"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="Courage"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view1"
+            android:layout_marginLeft="250dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/butterfly"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button3"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="260dp"
+            android:text="Happy"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view2"
+            android:layout_marginLeft="250dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/butterfly"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button4"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="270dp"
+            android:text="Fun"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/butterfly"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/text_view2"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button5"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="58dp"
+            android:text="Joy"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/button6"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view5"
+            android:layout_marginLeft="150dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="72dp"
+            android:maxWidth="72dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/butterfly"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/text_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button6"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="150dp"
+            android:text="Motivate"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
